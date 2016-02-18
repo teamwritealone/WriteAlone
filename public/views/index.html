@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html ng-app="myApp" class="ng-scope">
+
+<head>
+  <base href="/">
+  <meta name=viewport content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="/css/style.css">
+
+  <script type="text/javascript" src="/js/angularjs/1.5.0/angular.js"></script>
+  <script type="text/javascript" src="/js/angularjs/1.5.0/route.js"></script>
+  <!-- Services -->
+  <script type="text/javascript" src="/js/services/authService.js"></script>
+<!--   <script type="text/javascript" src="/js/services/userService.js"></script> 
+ -->  <!-- <script type="text/javascript" src="/js/services/storyService.js"></script> -->
+  <!-- Controllers -->
+  <script type="text/javascript" src="/js/controllers/mainCtrl.js"></script>
+  <script type="text/javascript" src="/js/controllers/userCtrl.js"></script>
+
+ <script type="text/javascript" src="/js/controllers/app.js"></script>
+ <script type="text/javascript" src="/js/routes/routes.js"></script>
+ <script type="text/javascript" src="/js/services/userService.js"></script> 
+</head>
+
+
+
+
+<body>
+<header>
+  <div id="logo">
+    <h1>            
+      <img src="/images/wa_logo.png" width="180" height="90">
+    </h1>
+  </div>
+</header>
+
+
+  
+  <main class="container">
+     <div ng-view></div>   
+  </main>
+  
+</body>
+</html>

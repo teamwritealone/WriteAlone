@@ -1,0 +1,9 @@
+      .body{
+        font-family: sans-serif;
+        text-align: center; 
+      }
+
+		::selection {
+			color: #fff; 
+			background: #60b044;
+		}

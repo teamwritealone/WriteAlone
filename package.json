@@ -1,0 +1,25 @@
+{
+  "name": "ls",
+  "version": "1.0.0",
+  "description": "This is A user story App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jabongg/userStory.git"
+  },
+  "author": "writealone.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jabongg/userStory/issues"
+  },
+  "homepage": "https://github.com/jabongg/userStory#readme",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "jsonwebtoken": "^5.5.4",
+    "mongoose": "^4.3.7",
+    "morgan": "^1.6.1"
+  }
+}
