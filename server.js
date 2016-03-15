@@ -34,6 +34,6 @@ app.get('/*',function(req,res){
 		console.log(err);		
 	}
 	else{
-		console.log("server running on port 3000");
+		console.log("my server is listening on port 3000");
 	}
 });
