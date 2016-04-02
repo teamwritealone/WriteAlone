@@ -18,6 +18,7 @@
   "homepage": "https://github.com/jabongg/userStory#readme",
   "dependencies": {
     "body-parser": "^1.14.2",
+    "gulp": "^3.9.1",
     "jsonwebtoken": "^5.5.4",
     "mongoose": "^4.3.7",
     "morgan": "^1.6.1"
